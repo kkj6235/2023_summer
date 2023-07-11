@@ -1,0 +1,17 @@
+# ninja log v5
+3	273	7107728600000000	build.ninja	1fc14660f2ff10d9
+4	440	7107532862033338	CMakeFiles/untitled.dir/main.cpp.obj	ec9015d09924fd2c
+14	504	7107523571768736	CMakeFiles/untitled.dir/prob3_5.cpp.obj	46134a5cbb314549
+441	654	7107532864102400	untitled.exe	d0fcb84ae3aff286
+5	693	7104319341149649	CMakeFiles/untitled.dir/prob3_1.cpp.obj	6bac1a28094c03b2
+27	831	7104319342529108	CMakeFiles/untitled.dir/prob3_2.cpp.obj	f869ade3e92186b5
+4	387	7106962727760437	CMakeFiles/untitled.dir/prob3_3.cpp.obj	a46ac6d2e333183d
+16	780	7107498363344801	CMakeFiles/untitled.dir/prob3_4.cpp.obj	ed291743f6d443d5
+55	1169	7107728920000000	CMakeFiles/untitled.dir/prob3_3.cpp.obj	9eff5e2b91103ba4
+7	1209	7107728920000000	CMakeFiles/untitled.dir/prob3_1.cpp.obj	2fb407ba7024d2d0
+25	1310	7107728920000000	CMakeFiles/untitled.dir/main.cpp.obj	7f6418c3c9fb209e
+76	1434	7107728920000000	CMakeFiles/untitled.dir/prob3_5.cpp.obj	451b01a113938938
+39	1535	7107728920000000	CMakeFiles/untitled.dir/prob3_4.cpp.obj	d3e9c234a30b35f3
+93	1654	7107728920000000	CMakeFiles/untitled.dir/prob3_2.cpp.obj	12b22449f7c67767
+7	949	7107729080000000	CMakeFiles/untitled.dir/prob3_5.cpp.obj	451b01a113938938
+949	1259	7107729080000000	untitled.exe	d0fcb84ae3aff286
