@@ -5,6 +5,7 @@ public class Member {
     private String name;
     private Grade grade;
 
+
     public Long getId() {
         return id;
     }
