@@ -2,8 +2,9 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-
-bool search(vector<vector <int>> A,vector<int> *stack,int i){
+vector<vector<int>> A(1001);
+vector<int> stack;
+void search(vector<vector <int>> A,vector<int> *stack,int i){
     auto j = A[i].begin();
     stack->push_back(i);
     for(int k=0;k<A[i].size();k++){
@@ -13,12 +14,11 @@ bool search(vector<vector <int>> A,vector<int> *stack,int i){
     }
 }
 
-int main() {
+int prb23_timeover() {
     int count=0;
     int v, e;
     cin >> v >> e;
-    vector<vector<int>> A(v);
-    vector<int> stack;
+
 
     for(int i=0;i<e;i++){
         int a,b;

@@ -19,6 +19,7 @@ int prob3_4() {
         }
         cout<<endl;
     }
+
     for(int i=0;i<qes;i++){
         int x1,y1,x2,y2;
         cin >> x1 >> y1 >> x2 >> y2;

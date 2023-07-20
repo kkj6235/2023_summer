@@ -16,7 +16,7 @@ void search(int i){
     }
 }
 
-int main() {
+int prob23() {
     int count=0;
     int v, e;
     cin >> v >> e;
