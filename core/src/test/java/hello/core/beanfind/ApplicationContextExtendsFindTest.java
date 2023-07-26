@@ -47,13 +47,13 @@ public class ApplicationContextExtendsFindTest {
         }
     }
     @Test
-    @DisplayName("부모 타입으로 모두 조회하기 - Object")
+    @DisplayName("부모 타입으로 모두 조회하기 - Ob  ject")
     void findAllBeanByObjectType(){
         Map<String, Object> beansOfType = ac.getBeansOfType(Object.class);
         for(String key : beansOfType.keySet()){
             System.out.println("key = "+ key+" value = "+beansOfType.get(key));
         }
-    // 자바 객체는 모든게 object 타입이기 때문에 spring에 있는 모든 객체가 튀어나오게 된다!!
+        // 자바 객체는 모든게 object 타입이기 때문에 spring에 있는 모든 객체가 튀어나오게 된다!!
     }
     @Configuration
     static class TestConfig{
