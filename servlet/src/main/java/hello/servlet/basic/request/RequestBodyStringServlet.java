@@ -18,9 +18,7 @@ public class RequestBodyStringServlet extends HttpServlet {
         ServletInputStream inputStream = request.getInputStream(); // body 내용을 byte로 받을수 있게해줌
         String messageBody = StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);// byte를 string으로..
 
-        System.out.println("messagebody = " + messageBody);
+        System.out.println("messageBody = " + messageBody);
         response.getWriter().write("ok");
-
-
     }
 }
